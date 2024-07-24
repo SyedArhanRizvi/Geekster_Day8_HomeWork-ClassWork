@@ -1,0 +1,29 @@
+.listItem{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 130px;
+}
+.listItem .list{
+    width: 100%;
+    background: rgba(255, 0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    color: white;
+}
+.listItem .list div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: rgba(35, 18, 18, 0.389);
+    font-size: x-large;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.listItem .list div button{
+    padding: 7px 20px;
+    text-align: center;
+}

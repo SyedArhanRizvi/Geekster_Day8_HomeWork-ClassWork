@@ -1,0 +1,39 @@
+.isNotestAvai{
+    height: 100%;
+    width: 100%;
+    background: #750c0c3a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.isNotestAvai div{
+    text-align: center;
+}
+.isNotestAvai div .btn{
+    padding: 15px 100px;
+    background: red;
+    transition: 0.5s;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    font-size: 30px;
+}
+.isNotestAvai div .btn:hover{
+    background: green;
+}
+.isNotestAvai div .stH1{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+.isNotestAvai div .stH1 span{
+    color: red;
+}
+.isNotestAvai div .s2h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+.isNotestAvai div .s2h1 span{
+    color: green;
+}
